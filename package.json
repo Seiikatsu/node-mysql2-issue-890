@@ -1,0 +1,16 @@
+{
+  "name": "mysql2-issue-890",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "dependencies": {
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
